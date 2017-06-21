@@ -48,7 +48,8 @@
 \setlength{\headheight}{1.5\headheight}
 \fancyfoot{}
 
-\newcommand{\newtext}[1]{\textcolor{blue}{#1}}
+\newcommand{\newtext}[1]{{\leavevmode\color{blue}#1}}
+%\newcommand{\newtext}[1]{\textcolor{blue}{#1}}
 
 % New revisor comment command
 \newcounter{comments}[section]
